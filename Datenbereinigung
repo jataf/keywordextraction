@@ -3,8 +3,7 @@ import spacy
 from spacy import displacy
 from bs4 import BeautifulSoup
 import requests
-#nlp = spacy.load("de_core_news_lg")
-nlp = spacy.load('C:\\Users\\Jana\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\de_core_news_sm\\de_core_news_sm-3.2.0')
+nlp = spacy.load("de_core_news_lg")
 URL = "https://serdareviceportfolioit3.wordpress.com/ruby-portfolio/"
 #URL = "https://tutorial.djangogirls.org/de/how_the_internet_works/"
 page = requests.get(URL)
