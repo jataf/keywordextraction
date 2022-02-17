@@ -1,6 +1,3 @@
-# C:\Users\Verena Günther\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages
-# C:\Users\Verena Günther\PycharmProjects\keywordExtraction
-
 import requests
 import spacy
 from bs4 import BeautifulSoup
@@ -15,8 +12,7 @@ def replace_with_span(body_str, word, tag):
     return body_str
 
 # Sprachmodell laden
-nlp = spacy.load(
-    'C:\\Users\\Verena Günther\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\de_core_news_sm\\de_core_news_sm-3.2.0')
+nlp = spacy.load('C:de_core_news_sm-3.2.0')
 
 # Portfolio aus dem Web laden
 url = "https://serdareviceportfolioit3.wordpress.com/ruby-portfolio/"
