@@ -25,6 +25,10 @@ doc = nlp(soup.get_text())
 
 
 # Neue CSS-Classes definieren und im Dokument einfügen
+# loc = grün
+# misc = gelb
+# per = rot
+# org = blau
 new_style = soup.new_tag("style")
 new_style.string = ".spacy_loc { background-color:#66FF99; padding:0.1em 0.2em; } \
                     .spacy_misc { background-color:#FFFF99; padding:0.1em 0.2em; } \
