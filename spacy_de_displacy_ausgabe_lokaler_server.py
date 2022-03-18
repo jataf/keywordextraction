@@ -5,7 +5,7 @@ from spacy import displacy
 import re
 
 # Sprachmodell laden
-NER = spacy.load('C:\\Users\\Verena Günther\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\de_core_news_sm\\de_core_news_sm-3.2.0')
+NER = spacy.load("de_core_news_sm")
 
 URL = "https://alexandraseportfolioit3.wordpress.com/informatik/"
 html_content = requests.get(URL).text
