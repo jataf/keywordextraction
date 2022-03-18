@@ -1,12 +1,10 @@
-# C:\Users\Verena Günther\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages
-# C:\Users\Verena Günther\PycharmProjects\keywordExtraction
 import spacy
 from bs4 import BeautifulSoup
 
 
 
 # Sprachmodell laden
-nlp = spacy.load('C:\\Users\\Verena Günther\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\de_core_news_sm\\de_core_news_sm-3.2.0')
+nlp = spacy.load("de_core_news_sm")
 
 # Öffnen der lokal gespeicherten Webseite:
 with open("Informatik _ E- Portfolio IT3.html") as fp:
