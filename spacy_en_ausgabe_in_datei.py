@@ -1,11 +1,10 @@
-# gespeichert in C:\Users\Verena Günther\PycharmProjects\keywordExtraction
 import spacy
 from bs4 import BeautifulSoup
 import requests
 
 
 # Sprachmodell laden
-nlp = spacy.load('C:\\Users\\Verena Günther\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\en_core_web_sm\\en_core_web_sm-3.2.0')
+nlp = spacy.load("en_core_web_sm")
 
 URL = "https://tutorial.djangogirls.org/en/how_the_internet_works/"
 page = requests.get(URL)
