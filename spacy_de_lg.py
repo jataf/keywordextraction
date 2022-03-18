@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 
 # Sprachmodell laden
-nlp = spacy.load('C:\\Users\\Verena Günther\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\de_core_news_lg\\de_core_news_lg-3.2.0')
+nlp = spacy.load("de_core_news_lg")
 
 URL = "https://alexandraseportfolioit3.wordpress.com/informatik/"
 page = requests.get(URL)
