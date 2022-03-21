@@ -51,17 +51,17 @@ new_style.string = ".spacy_loc { background-color:#66FF99; padding:0.1em 0.2em; 
                     .spacy_misc { background-color:#FFFF99; padding:0.1em 0.2em; } \
                     .spacy_per { background-color:#FF7F7F; padding:0.1em 0.2em; } \
                     .spacy_org { background-color:#58ACFA; padding:0.1em 0.2em; } \
-                    .daten { background-color:#66FF99; padding:0.1em 0.2em; } \
-                    .variable { background-color:#FFFF99; padding:0.1em 0.2em; } \
-                    .methode { background-color:#FF7F7F; padding:0.1em 0.2em; } \
-                    .klasse { background-color: #F781BE; padding:0.1em 0.2em; } \
-                    .objekt { background-color:#dec1a6; padding:0.1em 0.2em; } \
-                    .sprache { background-color:#0088FF; padding:0.1em 0.2em; } \
-                    .events { background-color:#fffacd; padding:0.1em 0.2em; } \
-                    .zeit { background-color:#f4a460; padding:0.1em 0.2em; } \
-                    .zeichen { background-color:#f08080; padding:0.1em 0.2em; } \
-                    .elemente { background-color:#ffb6c1; padding:0.1em 0.2em; } \
-                    .person { background-color:#7b68ee; padding:0.1em 0.2em; }"
+                    .spacy_daten { background-color:#66FF99; padding:0.1em 0.2em; } \
+                    .spacy_variable { background-color:#FFFF99; padding:0.1em 0.2em; } \
+                    .spacy_methode { background-color:#FF7F7F; padding:0.1em 0.2em; } \
+                    .spacy_klasse { background-color: #F781BE; padding:0.1em 0.2em; } \
+                    .spacy_objekt { background-color:#dec1a6; padding:0.1em 0.2em; } \
+                    .spacy_sprache { background-color:#0088FF; padding:0.1em 0.2em; } \
+                    .spacy_events { background-color:#fffacd; padding:0.1em 0.2em; } \
+                    .spacy_zeit { background-color:#f4a460; padding:0.1em 0.2em; } \
+                    .spacy_zeichen { background-color:#f08080; padding:0.1em 0.2em; } \
+                    .spacy_elemente { background-color:#ffb6c1; padding:0.1em 0.2em; } \
+                    .spacy_person { background-color:#7b68ee; padding:0.1em 0.2em; }"
 soup.find("title").insert_after(new_style)
 
 # Body des Dokuments verwenden (ganzer Seiteninhalt)
@@ -83,6 +83,7 @@ for ent in doc.ents:
 # Aufruf der Methode replace_with_span mit den einzelnen Wort-Label Paaren
 keys_list = list(wordToClass)
 for key in keys_list:
+    print(key + ": " + wordToClass[key])
     body_str = replace_with_span(body_str, key, wordToClass[key])
 
 
