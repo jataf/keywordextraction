@@ -1,28 +1,20 @@
 import spacy
+from spacy import displacy
 from bs4 import BeautifulSoup
 import requests
-from spacy import displacy
-import re
-
-# Sprachmodell laden
-NER = spacy.load("de_core_news_sm")
-
-URL = "https://alexandraseportfolioit3.wordpress.com/informatik/"
-html_content = requests.get(URL).text
-
-soup = BeautifulSoup(html_content, "lxml")
-body = soup.body.text
+#nlp = spacy.load("de_core_news_lg") Versuch, ob mehr Ergebnisse mit lg-Pipeline zustande kommen. Ergebnis: mehr Ergebnisse mit sm-Pipeline.
+nlp = spacy.load("de_core_news_sm")
+URL = "https://serdareviceportfolioit3.wordpress.com/ruby-portfolio/"
+page = requests.get(URL)
 
 
-text3 = NER(body)
+soup = BeautifulSoup(page.content, "html.parser")
+result = soup.get_text().replace(". ", ".\n")
 
-options = {"compact": True, "bg": "#09a3d5",
-           "color": "red", "font": "Source Sans Pro"}
-displacy.serve(text3, style="ent", options=options)
-# displacy.serve(text3,style="dep")
+# Verarbeitet einen Text
+doc = nlp(result)
 
-
-
-for ent in text3.ents:
-    print(ent.text, ent.label_, str(spacy.explain(ent.label_)))
-
+#Ausgabe wird in lokalen Server mit farblicher Markierung der Wörter angezeigt
+sentence_spans = list(doc.sents)
+#displacy.serve(sentence_spans, style="dep")
+displacy.serve(doc, style="ent")
