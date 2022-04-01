@@ -83,7 +83,6 @@ for ent in doc.ents:
 # Aufruf der Methode replace_with_span mit den einzelnen Wort-Label Paaren
 keys_list = list(wordToClass)
 for key in keys_list:
-    print(key + ": " + wordToClass[key])
     body_str = replace_with_span(body_str, key, wordToClass[key])
 
 
