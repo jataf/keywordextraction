@@ -31,9 +31,7 @@ def replace_with_span(body_str, word, tag):
     return body_str
 
 # Sprachmodell laden
-nlp = spacy.load(
-    'C:\\Users\\Jana\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\de_core_news_sm\\de_core_news_sm-3.2.0') # 3.2.0 weg machen?
-
+nlp = spacy.load('de_core_news_sm') 
 
 
 url = "https://serdareviceportfolioit3.wordpress.com/ruby-portfolio/"
