@@ -1,7 +1,7 @@
 # keywordextraction
 Project: Keyword extraction from e-portfolios
 
-Mit diesem Programm werden die Wörter aus einem deutschsprachigen Portfolio jeweils einer Kategorie zugeordnet und diese farblich in einer Kopie des Portfolios markiert. Die Kategorien sind von spacy vordefiniert und wurden mit zusätzlichen Kategorien ergänzt. Die Kategorien werden durch Mouse-over/Hover erläutert.
+Mit diesem Programm werden die Wörter aus einem deutschsprachigen Portfolio jeweils einer Kategorie zugeordnet und diese farblich in einer Kopie des Portfolios markiert. Die Kategorien sind von spacy vordefiniert und wurden mit zusätzlichen Kategorien ergänzt. Die Kategorien werden durch Mouseover/Hover erläutert.
 Die Zuordnung der Wörter zu bestimmten Kategorien findet durch vortrainierte Pipelines der Software spacy statt und durch eine händisch erstelltes Dictionary, welches sich an den Concept-Maps orientiert.
 
 Das Programm kann über die Kommandozeile verwendet werden.
