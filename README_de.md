@@ -44,6 +44,7 @@ Inhaltsverzeichnis
 
 
 
+
 1.    Wie man das Projekt installiert und ausführt
 
 Importieren von Python, request, spacy, bs4 von BeautifulSoup, de_core_news_sm von Spacy. 
