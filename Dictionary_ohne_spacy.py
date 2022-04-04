@@ -22,13 +22,6 @@ def replace_with_span(body_str, word, tag):
     }
     return body_str.replace(word, "<span title='" + tagToTitle[tag] + "' class=\"" + tag.lower() + "\">" + word + "</span>")
 
-# Portfolio aus der Usereingabe laden
-#print("Bitte Portfolio URL eingeben:")
-#print("([1] eingeben um Beispiel Portfolio zu verwenden)")
-#url = input()
-#if (url == "1"):
- #   url = "https://serdareviceportfolioit3.wordpress.com/ruby-portfolio/"
-#print("Portfolio von URL " + url + " wird prozessiert.")
 
 # Portfolio aus dem Web laden
 url = "https://serdareviceportfolioit3.wordpress.com/ruby-portfolio/"
@@ -224,9 +217,6 @@ wordToClass = dict({"String": "daten",
                     "Animation": "events"
 
                     })
-#for ent in doc.ents:
-   # if ent.text not in wordToClass.keys():
-    #    wordToClass[ent.text] = ent.label_
 
 
 # Aufruf der Methode replace_with_span mit den einzelnen Wort-Label Paaren
