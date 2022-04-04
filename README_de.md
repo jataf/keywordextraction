@@ -53,8 +53,8 @@ Alle Programme können über die Konsole gestartet werden. Je nach Programm erfo
 
 
 2.    Keyword Extraction (Endergebnis)
-Programm: Final keyword_extraction
-Programm-Name: final_keyword_extraction.py
+- Programm: Final keyword_extraction
+- Programm-Name: final_keyword_extraction.py
 
 Ablauf:
 Nach Aufruf des Programms kann der Nutzer eine Webadresse eingeben. Wird keine Webadresse vom Nutzer eingegeben, dann wird das hinterlegte Portfolio geladen. 
@@ -76,8 +76,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 3.    Dictionary
 
-Programm: Dictionary 
-Programmname: Dictionary.py
+- Programm: Dictionary 
+- Programmname: Dictionary.py
 In diesem Programm ist die händische Zuordnung von Wörtern des Portfolio zu Kategorien hinterlegt. Die Kategorien orientieren sich an den Concept-Maps, die von Frau Rebholz zur Verfügung gestellt wurden.
 Das Dictionary wird in mehreren Programmen aufgerufen.
 
@@ -88,8 +88,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 4.    Dictionary ohne Spacy
 
-Programm: dictionary ohne Spacy
-Programm-Name: dictionary_ohne_spacy.py
+- Programm: dictionary ohne Spacy
+- Programm-Name: dictionary_ohne_spacy.py
 Mit diesem Programm soll eine optimale Auswertung der Entitäten dargestellt werden. Da die Ergebnisse durch spacy unzureichend ausfallen, soll durch dieses Programm der “Best-Case” aufzeigt werden. Dabei sind alle Entitäten händisch in einem Dictionary angelegt. Die Ausgabe erfolgt in einer neu erstellten Kopie des Portfolios.
 
 Anmerkung: Bestimmte Wörter wie „Klasse“ oder Methoden wie „center“, „style“ konnten nicht in die Kategorien aufgenommen werden, da sie in der Ausgabe als Code ausgewertet werden. Hierfür konnte bisher keine Lösung gefunden werden. Die Worte, die nicht zugeordnet werden können, sind im Programm mit # hinterlegt.
@@ -104,8 +104,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 5.    Dictionary mit Ergänzungen von Spacy
 
-Programm: Dictionary mit Ergänzungen von Spacy
-Programmname: spacy_de_dicitionary_spacy_concept_maps.de
+- Programm: Dictionary mit Ergänzungen von Spacy
+- Programmname: spacy_de_dicitionary_spacy_concept_maps.de
 
 Mit diesem Programm soll die händische Zuordnung der Entitäten (Programm Dictionary) mit der Auswertung von spacy verbunden werden. 
 
@@ -121,8 +121,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 6.    Annotation in HTML
 
-Programm: Annotation in HTML
-Programm-Name: spacy_de_annotation_in_HTML.py
+- Programm: Annotation in HTML
+- Programm-Name: spacy_de_annotation_in_HTML.py
 
 Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprachigen Portfolio gefunden und anschließend in einer Kopie des Portfolios dargestellt. Die Wörter werden von Spacy teilweise mehreren Kategorien zugeordnet. Die Zuordnung der Kategorien wird farblich dargestellt.
 
@@ -138,8 +138,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
     
 7.    Annotation mit Eingabeaufforderung
 
-Programm: Annotation mit Eingabeaufforderung
-Programm-Name: spacy_de_annotation_mit_eingabeaufforderung.py
+- Programm: Annotation mit Eingabeaufforderung
+- Programm-Name: spacy_de_annotation_mit_eingabeaufforderung.py
 
 Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprachigen Portfolio gefunden und anschließend in einer Kopie des Portfolios dargestellt. Dazu hat der Nutzer beim Start des Programms die Möglichkeit ein beliebiges Portfolio über die Kommandozeile einzugeben oder ein bereits hinterlegtes Portfolio zu verwenden. Der Nutzer muss bei beiden Fällen eine Eingabe tätigen. Bei der eigenen Eingabe eines Portfolios muss darauf geachtet werden, dass eine vollständige URL eingegeben wird, das heißt auch einschließlich “https://”.  Soll das bereits hinterlegte Portfolio verwendet werden, muss eine 1 in die Kommandozeile eingegeben und bestätigt werden. Anschließend sucht Spacy die Entitäten und ordnet sie Kategorien zu. Um eine mehrfache Zuordnung eines Wortes zu mehreren Kategorien zu vermeiden wurde ein Dictionary angelegt, mit welchem ein Wort jeweils nur einer Kategorie zugeordnet werden kann.
 Den Kategorien werden im Programm verschiedene Farben zugewiesen. Im nächsten Schritt wird ein lokaler Webserver generiert, auf dem eine Kopie des Portfolios mit den Ergebnissen der Auswertung zu sehen ist. Durch farbliche Hinterlegungen wird dargestellt, welcher Kategorie das jeweilige Wort zugeordnet ist. Die farbliche Codierung bzw. die zugeordnete Kategorie wird durch hover/mouseover erläutert. 
@@ -155,8 +155,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 8.    Deutsche Pipeline mit Ausgabe in Datei
 
-Programm: Programm deutsche Pipeline mit Ausgabe in Datei
-Programm-Name: spacy_de_ausgabe_in_datei.py
+- Programm: Programm deutsche Pipeline mit Ausgabe in Datei
+- Programm-Name: spacy_de_ausgabe_in_datei.py
 
 Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprachigen Portfolio gefunden und anschließend in einer Datei in Tabellenform gespeichert. In der erstellten Tabelle werden die gefundenen Worte gezählt, anschließend das gefundene Wort, die Abkürzung der Kategorie sowie eine Beschreibung der Kategorie angezeigt. 
 
@@ -173,8 +173,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 9.    Vergleichsprogramm englische Pipeline mit Ausgabe in Datei
 
-Programm: Vergleichsprogramm englische Pipeline mit Ausgabe in Datei 
-Programm-Name: spacy_en_ausgabe_in_datei.py
+- Programm: Vergleichsprogramm englische Pipeline mit Ausgabe in Datei 
+- Programm-Name: spacy_en_ausgabe_in_datei.py
 
 Dieses Programm hat die gleichen Funktionen wie das Programm “Deutsche Pipeline mit Ausgabe in Datei”. Allerdings wird hier ein englischsprachiges Portfolio und eine englische Pipeline verwendet. Dieses Programm stellt ein Vergleichsprogramm dar, mit dem getestet werden soll, ob die englische Pipeline bessere Ergebnisse liefert als die deutsche. Die Ergebnisse sind jedoch noch geringer ausgefallen. 
 
@@ -189,8 +189,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 10.    Programm lokal gespeichertes Portfolio
 
-Programm: Programm lokal gespeichertes Portfolio
-Programm-Name: spacy_de_verarbeitung_lokales_portfolio.py
+- Programm: Programm lokal gespeichertes Portfolio
+- Programm-Name: spacy_de_verarbeitung_lokales_portfolio.py
 
 Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem lokal gespeicherten deutschsprachigen Portfolio gefunden und anschließend in der Konsole in Tabellenform ausgegeben. In dieser Tabelle werde die gefundenen Worte gezählt, anschließend das gefundene Wort, die Abkürzung der Kategorie sowie eine Beschreibung der Kategorie angezeigt. 
 
@@ -207,8 +207,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 11.    Vergleichsprogramm large Pipeline mit Ausgabe in Konsole
 
-Programm: Vergleichsprogramm large Pipeline mit Ausgabe in Konsole
-Programm-Name: spacy_de_lg.py
+- Programm: Vergleichsprogramm large Pipeline mit Ausgabe in Konsole
+- Programm-Name: spacy_de_lg.py
 
 Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprachigen Portfolio gefunden und anschließend in der Konsole in Tabellenform ausgegeben. In dieser Tabelle werden die gefundenen Worte gezählt, anschließend das gefundene Wort, die Abkürzung der Kategorie sowie eine Beschreibung der Kategorie  angezeigt. 
 
@@ -228,8 +228,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 
 12.    Ausgabe mit Displacy und Ausgabe auf lokalem Server
 
-Programm: Ausgabe mit Displacy und Ausgabe auf lokalem Server
-Programm-Name: spacy_de_displacy_ausgabe_lokaler_server.py
+- Programm: Ausgabe mit Displacy und Ausgabe auf lokalem Server
+- Programm-Name: spacy_de_displacy_ausgabe_lokaler_server.py
 
 Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprachigen Portfolio gefunden und anschließend auf einem lokalen Server dargestellt. Die Darstellung erfolgt durch die Verwendung von Displacy. Dabei werden die Entitäten durch Displacy farblich markiert und eine Zuordnung der Kategorien dargestellt. Die ursprüngliche Formatierung/Darstellung des Portfolios wird nicht übernommen.
 Displacy ist ein Visualizer von spacy. 
