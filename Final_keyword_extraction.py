@@ -9,6 +9,7 @@ import Dictionary
 url = "https://serdareviceportfolioit3.wordpress.com/ruby-portfolio/"
 if len(sys.argv) > 1:
     url = sys.argv[1]
+    
 # Funktion: Wort umgeben mit Span mit passender CSS-Class, tag = label
 # \u2192 eingefügt, da vorher auch Pfeile von Spacy als Entitäten gezählt wurden
 # gibt Body als string zurück
@@ -37,13 +38,12 @@ def replace_with_span(body_str, word, tag):
     return body_str
 
 # Sprachmodell laden
-nlp = spacy.load(
-    'C:\\Users\\Jana\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\de_core_news_sm\\de_core_news_sm-3.2.0') # 3.2.0 weg machen?
+nlp = spacy.load('de_core_news_sm)
 
 
 
 print("Portfolio von URL " + url + " wird prozessiert.")
-#url = "https://serdareviceportfolioit3.wordpress.com/ruby-portfolio/"
+
 request = requests.get(url)
 
 # Portfolio parsen, um Text verwenden zu können
