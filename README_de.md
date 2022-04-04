@@ -42,7 +42,7 @@ Inhaltsverzeichnis
 11. Vergleichsprogramm large Pipeline mit Ausgabe in Konsole    
 12. Ausgabe mit Displacy und Ausgabe auf lokalem Server
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 1.    Wie man das Projekt installiert und ausführt
