@@ -19,7 +19,7 @@ def replace_with_span(body_str, word, tag):
     return body_str
 
 # Sprachmodell laden
-nlp = spacy.load('de_core_news_sm-3.2.0')
+nlp = spacy.load('de_core_news_sm')
    
 
 
