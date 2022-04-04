@@ -51,6 +51,7 @@ Importieren von Python, request, spacy, bs4 von BeautifulSoup, de_core_news_sm v
 Alle Programme können über die Konsole gestartet werden. Je nach Programm erfolgt eine Eingabeaufforderung. Näheres wird in den einzelnen Abschnitten der Programme beschrieben.
 
 
+
 2.    Keyword Extraction (Endergebnis)
 Programm: Final keyword_extraction
 Programm-Name: final_keyword_extraction.py
@@ -70,6 +71,7 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 - de_core_news_sm von Spacy
 - sys
 - Dictionary.py
+
 
 
 3.    Dictionary
@@ -99,6 +101,7 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 - bs4 von BeautifulSoup
 
 
+
 5.    Dictionary mit Ergänzungen von Spacy
 
 Programm: Dictionary mit Ergänzungen von Spacy
@@ -114,6 +117,8 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 - de_core_news_sm von Spacy
 - Dictionary.py
 
+
+
 6.    Annotation in HTML
 
 Programm: Annotation in HTML
@@ -128,6 +133,7 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 - spacy
 - bs4 von BeautifulSoup
 - de_core_news_sm von Spacy
+
 
     
 7.    Annotation mit Eingabeaufforderung
@@ -180,6 +186,7 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 - en_core_web_sm von Spacy
 
 
+
 10.    Programm lokal gespeichertes Portfolio
 
 Programm: Programm lokal gespeichertes Portfolio
@@ -195,6 +202,7 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 - spacy
 - bs4 von BeautifulSoup
 - de_core_news_sm von Spacy
+
 
 
 11.    Vergleichsprogramm large Pipeline mit Ausgabe in Konsole
@@ -215,6 +223,7 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 - bs4 von BeautifulSoup
 - de_core_news_sm von Spacy
 - pandas as pd
+
 
 
 12.    Ausgabe mit Displacy und Ausgabe auf lokalem Server
