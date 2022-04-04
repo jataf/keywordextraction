@@ -7,12 +7,12 @@ Die Zuordnung der Wörter zu bestimmten Kategorien findet durch vortrainierte Pi
 Das Programm kann über die Kommandozeile verwendet werden.
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-• Python
-• request
-• spacy
-• bs4 von BeautifulSoup
-• de_core_news_sm von Spacy
-• import sys
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
+- import sys
 
 
 Das Programm ist in der Programmiersprache Python programmiert, da diese Programmiersprache für spacy verwendet wird. 
@@ -80,7 +80,7 @@ In diesem Programm ist die händische Zuordnung von Wörtern des Portfolio zu Ka
 Das Dictionary wird in mehreren Programmen aufgerufen.
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-•  Python
+- Python
 
 
 
@@ -93,12 +93,10 @@ Mit diesem Programm soll eine optimale Auswertung der Entitäten dargestellt wer
 Anmerkung: Bestimmte Wörter wie „Klasse“ oder Methoden wie „center“, „style“ konnten nicht in die Kategorien aufgenommen werden, da sie in der Ausgabe als Code ausgewertet werden. Hierfür konnte bisher keine Lösung gefunden werden. Die Worte, die nicht zugeordnet werden können, sind im Programm mit # hinterlegt.
 
 
-
-
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-• Python
-• request
-• bs4 von BeautifulSoup
+- Python
+- request
+- bs4 von BeautifulSoup
 
 
 5.    Dictionary mit Ergänzungen von Spacy
@@ -109,12 +107,12 @@ Programmname: spacy_de_dicitionary_spacy_concept_maps.de
 Mit diesem Programm soll die händische Zuordnung der Entitäten (Programm Dictionary) mit der Auswertung von spacy verbunden werden. 
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-• Python
-• request
-• spacy
-• bs4 von BeautifulSoup
-• de_core_news_sm von Spacy
-• Dictionary.py
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
+- Dictionary.py
 
 6.    Annotation in HTML
 
@@ -125,11 +123,11 @@ Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprac
 
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-•    Python
-•    request
-•    spacy
-•    bs4 von BeautifulSoup
-•    de_core_news_sm von Spacy
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
 
     
 7.    Annotation mit Eingabeaufforderung
@@ -141,11 +139,11 @@ Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprac
 Den Kategorien werden im Programm verschiedene Farben zugewiesen. Im nächsten Schritt wird ein lokaler Webserver generiert, auf dem eine Kopie des Portfolios mit den Ergebnissen der Auswertung zu sehen ist. Durch farbliche Hinterlegungen wird dargestellt, welcher Kategorie das jeweilige Wort zugeordnet ist. Die farbliche Codierung bzw. die zugeordnete Kategorie wird durch hover/mouseover erläutert. 
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-•    Python
-•    request
-•    spacy
-•    bs4 von BeautifulSoup
-•    de_core_news_sm von Spacy
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
 
 
 
@@ -159,11 +157,11 @@ Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprac
 Dieses Programm wurde erstellt, um zu testen, wie viele Entitäten von spacy gefunden werden. Die Ergebnisse der Kategoriezuordnung durch Spacy sind nicht zufriedenstellend  ausgefallen. Aus diesem Grund wurde ein Vergleichsprogramm erstellt, in dem eine englische Pipeline von Spacy verwendet wurde. Das Ziel dabei war es herauszufinden, ob die englische Pipeline bessere Ergebnisse liefert. Dies war allerdings nicht der Fall, hier wurden sogar noch weniger Ergebnisse erzielt.
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-•    Python
-•    request
-•    spacy
-•    bs4 von BeautifulSoup
-•    de_core_news_sm von Spacy
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
 
 
 
@@ -175,11 +173,11 @@ Programm-Name: spacy_en_ausgabe_in_datei.py
 Dieses Programm hat die gleichen Funktionen wie das Programm “Deutsche Pipeline mit Ausgabe in Datei”. Allerdings wird hier ein englischsprachiges Portfolio und eine englische Pipeline verwendet. Dieses Programm stellt ein Vergleichsprogramm dar, mit dem getestet werden soll, ob die englische Pipeline bessere Ergebnisse liefert als die deutsche. Die Ergebnisse sind jedoch noch geringer ausgefallen. 
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-•    Python
-•    request
-•    spacy
-•    bs4 von BeautifulSoup
-•    en_core_web_sm von Spacy
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- en_core_web_sm von Spacy
 
 
 10.    Programm lokal gespeichertes Portfolio
@@ -192,11 +190,11 @@ Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem lokal gespei
 Im Gegensatz zu den anderen Programmen wird hier ein lokal gespeichertes Portfolio ausgewertet.
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-•    Python
-•    request
-•    spacy
-•    bs4 von BeautifulSoup
-•    de_core_news_sm von Spacy
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
 
 
 11.    Vergleichsprogramm large Pipeline mit Ausgabe in Konsole
@@ -211,12 +209,12 @@ Dieses Programm stellt ein Vergleichsprogramm dar. Dabei sollte getestet werden,
 Anmerkungen: Durch die Verwendung von pandas werden in der Konsole nicht alle gefundenen Entitäten aufgeführt, sondern nur die ersten fünf und die letzten fünf. 
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-•    Python
-•    request
-•    spacy
-•    bs4 von BeautifulSoup
-•    de_core_news_sm von Spacy
-•    pandas as pd
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
+- pandas as pd
 
 
 12.    Ausgabe mit Displacy und Ausgabe auf lokalem Server
@@ -230,10 +228,10 @@ Displacy ist ein Visualizer von spacy.
 Anmerkung: Um den lokalen Server verwenden zu können muss im Browser “localhost:5000” eingegeben werden, anstatt des angezeigten Links. 
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-•    Python
-•    request
-•    spacy
-•    bs4 von BeautifulSoup
-•    de_core_news_sm von Spacy
-•    displacy von spacy
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
+- displacy von spacy
 
