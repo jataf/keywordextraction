@@ -63,13 +63,13 @@ Damit mehrfach vorkommende Wörter nicht doppelt zugeordnet werden, werden die g
 
 
 Benötigte Software, Bibliotheken & Sprachmodell(e):
-• Python
-• request
-• spacy
-• bs4 von BeautifulSoup
-• de_core_news_sm von Spacy
-• sys
-• Dictionary.py
+- Python
+- request
+- spacy
+- bs4 von BeautifulSoup
+- de_core_news_sm von Spacy
+- sys
+- Dictionary.py
 
 
 3.    Dictionary
