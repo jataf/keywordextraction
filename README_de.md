@@ -212,7 +212,7 @@ Programm-Name: spacy_de_lg.py
 
 Mit diesem Programm werden Entitäten mit Hilfe von Spacy aus einem deutschsprachigen Portfolio gefunden und anschließend in der Konsole in Tabellenform ausgegeben. In dieser Tabelle werden die gefundenen Worte gezählt, anschließend das gefundene Wort, die Abkürzung der Kategorie sowie eine Beschreibung der Kategorie  angezeigt. 
 
-Dieses Programm stellt ein Vergleichsprogramm dar. Dabei sollte getestet werden, ob eine andere/größere deutschsprachige Pipeline bessere Ergebnisse liefert als die deutsche Standard-Pipeline. Die Ergebnisse sind jedoch noch geringer ausgefallen. 
+Dieses Programm stellt ein Vergleichsprogramm dar. Dabei sollte getestet werden, ob eine andere/größere deutschsprachige Pipeline bessere Ergebnisse liefert als die deutsche Standard-Pipeline (de_core_news_sm). Die Ergebnisse sind jedoch noch geringer ausgefallen. 
 
 Anmerkungen: Durch die Verwendung von pandas werden in der Konsole nicht alle gefundenen Entitäten aufgeführt, sondern nur die ersten fünf und die letzten fünf. 
 
