@@ -15,7 +15,7 @@ result = soup.get_text()
 doc = nlp(result)
 
 neue_datei = open('datei_deutsch.txt', "w")
-# cols =["Nummer", "Text", "Label", "Erklärung des Labels"]
+
 
 rows = []
 i = 0
