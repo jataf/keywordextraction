@@ -13,6 +13,7 @@ Benötigte Software, Bibliotheken & Sprachmodell(e):
 - bs4 von BeautifulSoup
 - de_core_news_sm von Spacy
 - sys
+- re
 
 
 Das Programm ist in der Programmiersprache Python programmiert, da diese Programmiersprache für spacy verwendet wird. 
