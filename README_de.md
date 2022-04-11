@@ -25,7 +25,7 @@ Das sys-Modul von Python wird verwendet, um Argumente zu übergeben. Der Nutzer 
 
 Das Programm ist auf deutschsprachige Portfolios ausgerichtet, daher wurde die deutsche Pipeline de_core_news_sm von Spacy verwendet. Sollen Portfolios anderer Sprachen ausgewertet werden, so müssen die entsprechenden Sprachmodelle geladen werden.
 
-Um das Sprachmodell zu laden sollte der Dateipfad mit angegeben werden. Mit der von spacy aufgeführten Aktion nlp = spacy.load('de_core_news_sm-3.2.0') konnte in unserem Fall das Sprachmodell nicht geladen werden. Um das Sprachmodell erfolgreich zu laden, sollte der dazugehörigen Dateipfad mit angegeben werden.
+Um das Sprachmodell zu laden sollte der Dateipfad mit angegeben werden. Mit der von spacy aufgeführten Aktion nlp = spacy.load('de_core_news_sm') konnte in unserem Fall das Sprachmodell nicht geladen werden. Um das Sprachmodell erfolgreich zu laden, sollte der dazugehörigen Dateipfad mit angegeben werden.
 Die Ergebnisse, die spacy liefert, sind sehr ungenau und die Zuordnung der Wörter zu den Kategorien erfolgt nicht zufriedenstellend. Die Pipeline von spacy kann in dem kostenlosen Modell nicht trainiert werden. Daher wäre eine Fortführung des Projekts mit der entgeltlichen Version “https://prodi.gy/” eine zu überlegende Alternative.
 
  
