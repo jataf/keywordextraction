@@ -64,7 +64,6 @@ Python
 4 Dictionary ohne spacy – dictionary without spacy
 Program: dictionary ohne Spacy Program name: dictionary_ohne_spacy.py
 With this program an optimal analyzation of the entities is displayed. Because the results provided by spacy are not, with this program the best case is given. All entities are created in the dictionary by hand. The results are displayed in a copy of the portfolio. 
-Note: specific words like “Klasse”, “center”, “style” couldn’t be included in the dictionary, because in the output they are interpreted as code. For now, there is no solution for this problem. The words which can’t be allocated, are stored in the program with “#”. 
 
 Software, libraries, and language models you need:
     Python
