@@ -21,7 +21,7 @@ To get relevant information of the downloaded html-code and to parse structured 
 The sys-modul is used by python to hand over arguments. The user is requested to type in a html-adress. If no html is given, a deposit portfolio loaded. 
 The program is based on german portfolios. Because of this, the german pipeline of spacy ‘de_core_news_sm’ is used. If portfolios with other languages should be analyzed, than another language model is needed. Keep in mind that the dictionary is based on german concept-maps. So it won’t be working with other languages. 
 To load the language model it is useful to indicate the path file. With the written action from spacy nlp = spacy.load('de_core_news_sm-3.2.0') the language model couldn’t be loaded in our case. 
-The results of spacy are inaccurate and the classification of the categories is not fitting in most cases. It is not possible to train the pipeline of spacy in the freeware version. Therefore a continuation of the project with the paid version https://prodi.gy/ would be an alternative to consider.
+The results of spacy are inaccurate and the classification of the categories is not fitting in most cases. Therefore a continuation of the project with the purchasable version https://prodi.gy/ would be an alternative to consider.
 
 Table of contents
 1 How to install and run the project
